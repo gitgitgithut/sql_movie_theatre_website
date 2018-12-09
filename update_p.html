@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="omts.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <span id="logo">OMTS</span>
+            <div>
+                <a href="/customer_portal.php">Customer Portal</a>
+                <a href="/admin.php">Admin Panel</a>
+            </div>
+        </nav>
+        <h1>Update Profile</h1>
+        <form action="updateProfile.php" method="post">
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname">
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname">
+            </div>
+            <div>
+                <label for="password">New Password:</label>
+                <input type="password" id="password" name="password" required="required"/><br>
+            </div>
+            <div>
+                <label for="cpassword">Confirm New Password:</label>
+                <input type="password" id="cpassword" name="cpassword" required="required"/><br>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email"><br>
+            </div>
+            <div>
+                <label for="stNo">Street Number:</label>
+                <input type="text" name="stNo">
+            </div>
+            <div>
+                <label for="stName">Street Name:</label>
+                <input type="text" name="stName">
+            </div>
+            <div>
+                <label for="postal">Postal Code:</label>
+                <input type="text" name="postal">
+            </div>
+            <div>
+                <label for="phoneNo">Phone Number:</label>
+                <input type="text" name="phoneNo">
+            </div>
+            <div>
+                <label for="ccNum">Credit Card Number:</label>
+                <input type="text" name="ccNum">
+            </div>
+            <div>
+                <label for="ccExpire">Credit Card Expire Date:</label>
+                <input type="date" name="ccExpire">
+            </div>
+            <div>
+                <label for="csn">Credit Card Security Number:</label>
+                <input type="text" name="csn"><br>
+            </div>
+            <div>
+                <input type="submit" value="Update Profile">
+            </div>
+        </form> 
+    </div>
+</body>
+
+</html> 

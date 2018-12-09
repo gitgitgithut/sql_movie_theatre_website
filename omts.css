@@ -1,0 +1,78 @@
+body {
+    color: #222;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+select, input {
+    font-size: 18px;
+}
+
+label {
+    display: block;
+}
+
+nav {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    font-style: italic;
+    padding: 1rem;
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    color: white;
+    border-radius: 5px;
+}
+
+nav > div {
+    display: flex;
+    align-items: center;
+}
+
+nav a + a {
+    margin-left: 1rem;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 0.25rem 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#wrapper > form {
+    background-color: #eee;
+    padding: 1rem;
+}
+
+#wrapper > form > div {
+    margin: 0.5rem;
+}
+
+#wrapper > form input[type="submit"] {
+    margin-top: 1rem;
+}
+
+input[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
